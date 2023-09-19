@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
+    margin-top: -35px;
 }
 .content{
     display: flex;
