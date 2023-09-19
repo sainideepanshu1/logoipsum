@@ -5,7 +5,8 @@
     background-color: #F5FCFF;
 }
 .left{
-    height: 526.667px;
+    width: 790.667px;
+    height: 328.66700000000003px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,13 +48,10 @@
     border: none;
     color: white;
 }
-.photo{
-    width: 100%;
-}
 .right{
+    background: url('../../media/7b7b81beef751e84be8344c729c39ff8.png');
     width: 917.333px;
-    height: 729.745px;
-}
-.left,.right{
-    width: 50%;
+    height: 533.745px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

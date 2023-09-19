@@ -15,8 +15,8 @@ const FirstSection = () => {
                 <button className='getbtn'>Get In Touch</button>
             </div>
         </div>
-        <div className="right">
-            <img className='photo' src={pic} alt="pic" />
+        <div className='right'>
+            {/* <img className='photo' src={pic} alt="pic" /> */}
         </div>
     </div>
   )

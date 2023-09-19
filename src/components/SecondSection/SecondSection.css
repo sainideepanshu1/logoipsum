@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    padding:  149.333px 85.333px;    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 106.67px;
+}
+.section-tile{
+    display: flex;
+    width: 1024px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21.333px;
+}
+.skills{
+    color: #282938;
+    font-size: 21.333px;
+    font-weight: 600;
+}
+.expertise{
+    color: #282938;
+    font-size: 64px;
+    font-weight: 700;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42.667px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 10.667px;
+    background-color:#F5FCFF ;
+    gap: 32px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.icon{
+    height: 53.333px;
+    width: 53.333px;
+    padding: 13.33px;
+    background-color: white;
+    border-radius: 10.667px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+}
+.info{
+    font-weight: 400;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    gap: 21.33px;
+}
+.card:hover{
+    border-bottom: 4px solid var(--Primary, #5E3BEE);
+}
