@@ -1,0 +1,39 @@
+.navbar{
+    padding: 0px 85.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-weight: 400;
+    height: 120px;
+    box-shadow: 0px 5.33333px 80px 0px rgba(0, 0, 0, 0.10);
+}
+.logo{
+    height: 40px;
+    width: 186.667px;
+}
+.nav{
+    display: flex;
+    gap: 42.667px;
+}
+.link{
+    color: #1C1E53;
+    cursor: pointer;
+}
+.link:hover{
+    color: #5E3BEE;
+}
+.contactButton{
+    border: 1px solid #5E3BEE;
+    outline: none;
+    color: #5E3BEE;
+    width: 170.667px;
+    padding: 18.667px 42.667px;
+    cursor: pointer;
+    border-radius: 5.333px;
+    background-color: white;
+}
+.contactButton:hover{
+    background-color: #5E3BEE;
+    color: white;
+}
