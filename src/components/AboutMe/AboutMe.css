@@ -1,0 +1,25 @@
+.outerContainer {
+    display: flex;
+    gap: 114.667px;
+    padding: 133.333px 85.333px;
+    align-items: center;
+
+}
+
+.aboutmePic {
+    width: 633.333px;
+    height: 802px;
+
+}
+.about{
+    font-size: 21.333px;
+    font-weight: 600;
+}
+.aboutMe{
+    font-size: 64px;
+    font-weight: 700;
+}
+.aboutMeInfoo{
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -36,6 +36,8 @@
     border-radius: 10.667px;
     background-color:#F5FCFF ;
     gap: 32px;
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s;
 }
 .title{
     font-size: 24px;

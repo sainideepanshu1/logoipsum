@@ -1,0 +1,24 @@
+.testContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 106.67px;
+    padding: 149.333px 85.333px;
+}
+.testupper{
+    display: flex;
+    flex-direction: column;
+    gap: 21.33px;
+}
+.upper1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.upper2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.testlower{
+    display: flex;
+    gap: 42.67px;
+    align-items: flex-start;
+}
