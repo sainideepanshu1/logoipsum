@@ -56,9 +56,12 @@
     gap: 10.667px;
 }
 .lowercon{
+    cursor: pointer;
+    background-color: white;
     padding-bottom: 10.67px;
     display: flex;
     align-items: center;
     gap: 16px;
+    border: none;
     border-bottom: 1.333px solid var(--Primary, #5E3BEE);;
 }

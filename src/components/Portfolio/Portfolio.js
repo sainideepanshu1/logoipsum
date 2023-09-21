@@ -27,10 +27,10 @@ export default function Portfolio() {
                             <div className='title'>{i.title}</div>
                             <div className='info'>{i.info}</div>
                         </div>
-                        <div className="lowercon">
+                        <button className="lowercon">
                             <div className="lowerleft">View In Dribble</div>
                             <div className="lowerright"><img src={icon2} alt="vector" /></div>
-                        </div>
+                        </button>
                     </div>
                </div>
         })}
