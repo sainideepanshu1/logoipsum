@@ -1,0 +1,23 @@
+.outerlogin{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 149.333px 85.333px;
+    justify-content: center;
+    align-items: center;
+}
+.logininputs{
+    padding: 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1.333px solid var(--Primary, #5E3BEE);
+    background: var(--White, #FFF);
+    height: 4px;
+    width: 400px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 10.667px;
+}

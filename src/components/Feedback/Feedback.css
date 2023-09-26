@@ -1,0 +1,52 @@
+.outerfeedback{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    padding: 149.333px 85.333px;
+}
+.upperfeedback{
+    font-size: 64px;
+    font-weight: 700;
+}
+.rate{
+    font-size: 24px;
+    font-weight: 400;
+    color: #282938;
+}
+.lowerfeedback{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.feedbackrow{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.forrm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+span{
+    font-size: 35px;
+}
+.feedbackbutton{
+    text-decoration: none;
+    padding: 18.667px 42.667px;
+    border-radius: 5.333px;
+    border: 1.333px solid var(--Primary, #5E3BEE);
+    color: #5E3BEE;
+    background-color: white;
+    cursor: pointer;
+}
+.feedbackbutton:hover{
+    color: white;
+    background-color: #5E3BEE;
+
+}
+.starr{
+    color: #5E3BEE;
+}

@@ -42,7 +42,7 @@ const Contact = () => {
                 <div className="formrow">
                     <div className="formcolumn">
                     <label htmlFor="">Message</label>
-                    <input className='message' placeholder='Type your Message...' type="text" />
+                    <textarea className='message' placeholder='Type your Message...' cols="30" rows="10"></textarea>
                     </div>
                 </div>
                 <div className="formrow">

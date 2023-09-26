@@ -1,6 +1,5 @@
 import React from 'react'
 import './FirstSection.css'
-import pic from '../../media/7b7b81beef751e84be8344c729c39ff8.png'
 import headerData from '../../data/Header';
 const FirstSection = () => {
   return (
@@ -16,7 +15,6 @@ const FirstSection = () => {
             </div>
         </div>
         <div className='right'>
-            {/* <img className='photo' src={pic} alt="pic" /> */}
         </div>
     </div>
   )

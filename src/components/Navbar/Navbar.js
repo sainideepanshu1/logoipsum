@@ -12,7 +12,10 @@ const Navbar = () => {
         return <Link className='link' to={i.link}>{i.name}</Link>
         })}
         </div>
-        <Link className='contactButton' to='/contact'>Contact Me</Link>
+        <div className='buttons'>
+          <Link className='contactButton' to='/login'>Login</Link>
+          <Link className='contactButton' to='/contact'>Contact Me</Link>
+        </div>
     </div>
   )
 }

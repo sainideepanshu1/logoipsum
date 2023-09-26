@@ -11,7 +11,7 @@ export default function SecondSection() {
         <div className="row">
         {card.map((i)=>{
         return <div className='card'>
-                    <img className='icon' src={i.path} />
+                    <img className='icon' src={i.path} alt='pic' />
                     <div className="content2">
                         <div className='title'>{i.title}</div>
                         <div className='info'>{i.info}</div>
