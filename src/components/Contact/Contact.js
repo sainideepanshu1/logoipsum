@@ -34,12 +34,6 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="formrow">
-                    <div className='selecttopic'>
-                        <label htmlFor="">Choose a topic</label>
-                        <select name="" id=""><option value="">Select...</option></select>
-                    </div>
-                </div>
-                <div className="formrow">
                     <div className="formcolumn">
                     <label htmlFor="">Message</label>
                     <textarea className='message' placeholder='Type your Message...' cols="30" rows="10"></textarea>

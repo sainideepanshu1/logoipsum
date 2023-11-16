@@ -13,7 +13,7 @@ const Login = ({ data }) => {
                 ))}
 
             </div>
-            <button className='feedbackbutton'>Submit</button>
+            <button type='submit' className='feedbackbutton'>Submit</button>
         </div>
     );
 }
